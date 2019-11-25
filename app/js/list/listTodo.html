@@ -1,0 +1,6 @@
+<ul>
+    <li ng-repeat="item in $ctrl.serv.data">
+        {{$index}} - {{item}}
+         <button ng-show="$ctrl.edit" ng-click="$ctrl.serv.rem($index)" style="color: darkcyan"> X </button>
+    </li>
+</ul>
